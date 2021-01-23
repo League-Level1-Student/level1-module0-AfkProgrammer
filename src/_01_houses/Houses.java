@@ -10,7 +10,7 @@ public class Houses {
 	public void run() {
 		String housie = JOptionPane.showInputDialog(null, "What size do you want your house to be? Small, medium, or large?");
 		if (housie.equalsIgnoreCase("small")) {
-		
+		drawCasita (); 
 		}
 		bob.hide();
 		bob.setPenColor(0,255,0);
@@ -37,5 +37,7 @@ public class Houses {
 		bob.move(100);
 		bob.turn(270);
 	}
-	
+	private void drawCasita () {
+		//bob.
+	}
 }
