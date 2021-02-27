@@ -1,5 +1,7 @@
 package _01_houses;
 
+import java.awt.Color;
+
 import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
@@ -12,7 +14,6 @@ public class Houses {
 	
 		String housie = JOptionPane.showInputDialog(null, "What size do you want your house to be? Small, medium, or large?");
 
-		
 		if (housie.equalsIgnoreCase("small")) {
 		drawCasita (); 
 		}
@@ -21,6 +22,7 @@ public class Houses {
 		bob.penDown();
 		bob.hide();
 		bob.setSpeed(1000000000);
+		bob.setWindowColor(Color.BLACK);
 	}
 //		bob.setPenColor(0,255,0);
 //		bob.turn(270);
@@ -59,6 +61,6 @@ public class Houses {
 		bob.move(45);
 		bob.setPenColor(0,255,0);
 		bob.turn(270);
-		bob.move(20)
+		bob.move(20);
 	}
 }
