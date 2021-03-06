@@ -48,7 +48,7 @@ public class Houses {
 //	}
 	private void drawCasita () {
 		bob.setPenColor(0,255,0);
-		bob.turn(270);
+		bob.turn(90);
 		bob.move(20);
 		bob.turn(180);
 		bob.move(20);
