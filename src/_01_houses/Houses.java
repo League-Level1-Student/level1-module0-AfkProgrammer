@@ -17,6 +17,9 @@ public class Houses {
 		if (housie.equalsIgnoreCase("small")) {
 		drawCasita (); 
 		}
+		if (housie.equalsIgnoreCase("medium")) {
+			drawHouse();
+		}
 	}
     private void setup() {
 		bob.penDown();
@@ -37,19 +40,21 @@ public class Houses {
 //		bob.setPenColor(0,255,0);
 //		bob.move(50);
 //		}
-//
-//	private void drawHouse() {
-//		bob.move(100);
-//		bob.turn(90);
-//		bob.move(50);
-//		bob.turn(90);
-//		bob.move(100);
-//		bob.turn(270);
-//	}
+
+	private void drawHouse() {
+		//bob.penDown();
+		bob.move(100);
+		bob.turn(90);
+		bob.move(50);
+		bob.turn(90);
+		bob.move(100);
+		bob.turn(270);
+	}
 	private void drawCasita () {
+		
 		bob.setPenColor(0,255,0);
 		bob.turn(90);
-		bob.move(20);
+		bob.move(40);
 		bob.turn(180);
 		bob.move(20);
 		bob.turn(90);
