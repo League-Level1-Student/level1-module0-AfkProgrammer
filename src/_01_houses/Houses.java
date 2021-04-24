@@ -42,7 +42,16 @@ public class Houses {
 //		}
 
 	private void drawHouse() {
-		//bob.penDown();
+		bob.penDown();
+		bob.setPenColor(0,255,0);
+		bob.turn(270);
+		bob.move(25);
+		bob.turn(180);
+		bob.move(100);
+		bob.turn(180);
+		bob.move(75);
+		bob.turn(90);
+		bob.setPenColor(255,0,0);
 		bob.move(100);
 		bob.turn(90);
 		bob.move(50);
