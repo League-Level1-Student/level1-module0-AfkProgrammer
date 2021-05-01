@@ -27,19 +27,6 @@ public class Houses {
 		bob.setSpeed(1000000000);
 		bob.setWindowColor(Color.BLACK);
 	}
-//		bob.setPenColor(0,255,0);
-//		bob.turn(270);
-//		bob.move(50);
-//		bob.turn(180);
-//		bob.move(50);
-//		bob.turn(270);
-//		bob.setPenColor(255,0,0);
-//		for(int i = 0; i <= 10; i++) {
-//			drawHouse();
-//		}
-//		bob.setPenColor(0,255,0);
-//		bob.move(50);
-//		}
 
 	private void drawHouse() {
 		bob.penDown();
@@ -76,5 +63,21 @@ public class Houses {
 		bob.setPenColor(0,255,0);
 		bob.turn(270);
 		bob.move(20);
+	}
+	private void drawHome () {
+
+//		bob.setPenColor(0,255,0);
+//		bob.turn(270);
+//		bob.move(50);
+//		bob.turn(180);
+//		bob.move(50);
+//		bob.turn(270);
+//		bob.setPenColor(255,0,0);
+//		for(int i = 0; i <= 10; i++) {
+//			drawHouse();
+//		}
+//		bob.setPenColor(0,255,0);
+//		bob.move(50);
+//		}
 	}
 }
