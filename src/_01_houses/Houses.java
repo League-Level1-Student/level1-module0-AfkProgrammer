@@ -8,7 +8,7 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class Houses {
 	Robot bob = new Robot();
-	
+
 	public void run() {
 		setup();
 	
@@ -66,18 +66,17 @@ public class Houses {
 	}
 	private void drawHome () {
 
-//		bob.setPenColor(0,255,0);
-//		bob.turn(270);
-//		bob.move(50);
-//		bob.turn(180);
-//		bob.move(50);
-//		bob.turn(270);
-//		bob.setPenColor(255,0,0);
-//		for(int i = 0; i <= 10; i++) {
-//			drawHouse();
-//		}
-//		bob.setPenColor(0,255,0);
-//		bob.move(50);
-//		}
+		bob.setPenColor(0,255,0);
+		bob.turn(270);
+		bob.move(50);
+		bob.turn(180);
+		bob.move(50);
+		bob.turn(270);
+		bob.setPenColor(255,0,0);
+		for(int i = 0; i <= 10; i++) {
+		drawHouse();
+		}
+		bob.setPenColor(0,255,0);
+		bob.move(50);
+		}
 	}
-}
